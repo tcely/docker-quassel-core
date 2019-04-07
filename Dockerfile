@@ -11,5 +11,5 @@ RUN install -d -m 00770 -o quasselcore -g quassel /data
 VOLUME ["/data"]
 USER quasselcore:quassel
 
-ENTRYPOINT ["/usr/bin/quasselcore", "--ident-daemon", "--configdir", "/data"]
+ENTRYPOINT ["/usr/bin/quasselcore", "--configdir", "/data"]
 CMD ["--help"]
