@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:9-slim
 LABEL maintainer="https://keybase.io/tcely"
 
 ENV PAGER="less" PATH="/sbin:/usr/sbin:/bin:/usr/bin"
